@@ -1,0 +1,121 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+}
+body h1{
+    font-size: 40px;
+}
+.width p{
+    color: rgb(163, 160, 154);
+}
+.orange-color{
+    color: orange;
+}
+.part1{
+    display: flex;
+}
+.width{
+    width: 50%;
+    padding-left: 10%;
+}
+.width img{
+    padding-top: 40px;
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+}
+.about img{
+    width: 100%;
+    padding-top: 50px;
+}
+.customar img{
+    width: 50%;
+    height: 50%;
+    padding-right: 20%;
+    margin-left: 20%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.customar h2{
+    text-align: center;
+    color: orange;
+}
+
+/* .about{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 902px;
+}
+.first{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px;
+    position: stastic;
+    right: 165px;
+    top: calc(50% - 246px/2 - 50px);
+}
+.second{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 48px;
+    position: static;
+    right: 165px;
+    top: calc(50% - 246px/2 - 50px);
+} */
+.about p{
+    color: black;
+}
+.recipies h2, p {
+    text-align: center;
+}
+.part3 img{
+    width: 100%;
+}
+.part3{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+    padding: 20px 20px 20px 20px;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: static;
+    padding: 0px;
+    left: 101px;
+    top: 1771px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.footer{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: rgb(105, 97, 97);
+}
+.lastPart{
+    color: white;
+    font-size: x-small;
+}
